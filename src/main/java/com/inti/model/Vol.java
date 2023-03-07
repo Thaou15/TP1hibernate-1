@@ -32,11 +32,11 @@ public class Vol {
 	inverseJoinColumns = @JoinColumn(name = "idCA"))
     private List<CompagnieAerienne> listeCompagnieAerienne;
     
-    @OneToMany(mappedBy = "idvol")
+    @OneToMany(mappedBy = "vol")
     private List<Reservation> listeReservation;
     
     @ManyToOne
-    @JoinColumn(name="idVol")
+    @JoinColumn(name="idvol")
     private Aeroport aeroport;
 
     public Vol() {

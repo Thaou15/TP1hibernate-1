@@ -23,13 +23,14 @@ public class Aeroport {
     
     
     
-    @OneToMany(mappedBy = "vol", targetEntity = Vol.class)
+    @OneToMany(mappedBy = "aeroport")
     private List<Vol> listeVol;
     
     
     @OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "idV", nullable = false)
     private Ville ville ;
+    
     
     public Aeroport() {
     }
