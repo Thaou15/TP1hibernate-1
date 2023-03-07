@@ -17,16 +17,17 @@
 </head>
 <body>
 	<form method="post">
-		<h1>Formulaire inscription</h1>
+		<h1>Formulaire Reservation</h1>
+		<h2>Client</h2>
 		<div class="mb-3">
-			<label for="exampleInputEmail1" class="form-label">Login(*)</label>
+			<label for="exampleInputEmail1" class="form-label">Nom(*)</label>
 			<input type="text" name="login" required="required"
 				class="form-control" id="exampleInputEmail1"
 				aria-describedby="emailHelp">
 
 		</div>
 		<div class="mb-3">
-			<label for="exampleInputPassword1" class="form-label">Password(*)</label>
+			<label for="exampleInputPassword1" class="form-label">Prenom(*)</label>
 			<input type="password" name="mdp" required="required"
 				class="form-control" id="exampleInputPassword1">
 		</div>
@@ -57,19 +58,11 @@
 				class="form-control" id="exampleInputEmail1"
 				aria-describedby="emailHelp">
 		</div>
+		<h2>Reservation </h2>
+		<h2>Passager </h2>
+		
 		<div class="form-text">(*) : champs obligatoires</div><br><br>
-		<input type="radio" class="btn-check" name="formule" value="classique" id="option1"
-			autocomplete="off" checked> <label class="btn btn-secondary"
-			for="option1">Classique</label>
-			
-	    <input type="radio" class="btn-check"
-			name="formule" value="abonnee" id="option2" autocomplete="off"> <label
-			class="btn btn-secondary" for="option2">Abonnée</label>
-	    <input type="radio" class="btn-check"
-			name="formule" value="vip" id="option3" autocomplete="off"> <label
-			class="btn btn-secondary" for="option3">Vip</label><br><br>
-			
-
+		
 		<button type="submit" class="btn btn-primary">Submit</button>
 		<button type="reset" class="btn btn-danger">Annuler</button>
 	</form>
