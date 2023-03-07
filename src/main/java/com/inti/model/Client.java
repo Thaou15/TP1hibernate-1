@@ -36,6 +36,16 @@ public class Client {
     }
     
     
+	public Client(String nom, String prenom, String adresse, int telephone, String email) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+		this.adresse = adresse;
+		this.telephone = telephone;
+		this.email = email;
+	}
+
+
 	public Client(String nom, String prenom, String adresse, int telephone, String email,
 			List<Reservation> listeReservation) {
 		super();

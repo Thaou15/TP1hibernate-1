@@ -38,16 +38,6 @@
 				id="exampleInputEmail1" aria-describedby="emailHelp">
 		</div>
 		<div class="mb-3">
-			<label for="exampleInputEmail1" class="form-label">Ville</label> <input
-				type="text" name="villeC" class="form-control"
-				id="exampleInputEmail1" aria-describedby="emailHelp">
-		</div>
-		<div class="mb-3">
-			<label for="exampleInputEmail1" class="form-label">Cp</label> <input
-				type="number" name="cpC" class="form-control" id="exampleInputEmail1"
-				aria-describedby="emailHelp">
-		</div>
-		<div class="mb-3">
 			<label for="exampleInputEmail1" class="form-label">Telephone</label>
 			<input type="text" name="telephoneC" class="form-control"
 				id="exampleInputEmail1" aria-describedby="emailHelp">
