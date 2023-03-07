@@ -14,7 +14,7 @@ import org.hibernate.Session;
 import com.inti.util.HibernateUtil;
 
 
-@WebServlet("/Reserver")
+@WebServlet("/ReserverServlet")
 public class ReserverServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private Logger log = LogManager.getLogger();
@@ -27,11 +27,9 @@ public class ReserverServlet extends HttpServlet {
 
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-	
-		session = HibernateUtil.getSessionFactory().openSession();
+	session = HibernateUtil.getSessionFactory().openSession();
 
-		log.debug("Connexion à la BDD et configuration d'hibernate depuis commande");
-	
+		
 		this.getServletContext().getRequestDispatcher("/WEB-INF/reserver.jsp").forward(request, response);
 	}
 
