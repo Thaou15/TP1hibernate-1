@@ -60,8 +60,5 @@ public class Ville {
 		return "Ville [idVille=" + idVille + ", nomVille=" + nomVille + ", aeroport=" + aeroport + "]";
 	}
     
-<<<<<<< HEAD
-    
-=======
->>>>>>> branch 'master' of https://github.com/zwileo/TP1hibernate.git
+
 }

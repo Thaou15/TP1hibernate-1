@@ -16,8 +16,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
 
-import com.inti.model.Role;
-import com.inti.model.Utilisateur;
+
 import com.inti.model.Vol;
 import com.inti.util.HibernateUtil;
 
