@@ -28,7 +28,7 @@
 		</div>
 		<div class="mb-3">
 			<label for="exampleInputPassword1" class="form-label">Prenom(*)</label>
-			<input type="password" name="prenomC" required="required"
+			<input type="text" name="prenomC" required="required"
 				class="form-control" id="exampleInputPassword1">
 		</div>
 
