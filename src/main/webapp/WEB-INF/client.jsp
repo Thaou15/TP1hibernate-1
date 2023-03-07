@@ -17,38 +17,39 @@
 </head>
 <body>
 	<form method="post">
-		<h1>Formulaire inscription</h1>
+		<h1>Formulaire Reservation</h1>
+		<h2>Client</h2>
 		<div class="mb-3">
-			<label for="exampleInputEmail1" class="form-label">Login(*)</label>
-			<input type="text" name="login" required="required"
+			<label for="exampleInputEmail1" class="form-label">Nom(*)</label>
+			<input type="text" name="nomC" required="required"
 				class="form-control" id="exampleInputEmail1"
 				aria-describedby="emailHelp">
 
 		</div>
 		<div class="mb-3">
-			<label for="exampleInputPassword1" class="form-label">Password(*)</label>
-			<input type="password" name="mdp" required="required"
+			<label for="exampleInputPassword1" class="form-label">Prenom(*)</label>
+			<input type="password" name="prenomC" required="required"
 				class="form-control" id="exampleInputPassword1">
 		</div>
 
 		<div class="mb-3">
 			<label for="exampleInputEmail1" class="form-label">Adresse</label> <input
-				type="text" name="adresse" class="form-control"
+				type="text" name="adresseC" class="form-control"
 				id="exampleInputEmail1" aria-describedby="emailHelp">
 		</div>
 		<div class="mb-3">
 			<label for="exampleInputEmail1" class="form-label">Ville</label> <input
-				type="text" name="ville" class="form-control"
+				type="text" name="villeC" class="form-control"
 				id="exampleInputEmail1" aria-describedby="emailHelp">
 		</div>
 		<div class="mb-3">
 			<label for="exampleInputEmail1" class="form-label">Cp</label> <input
-				type="number" name="cp" class="form-control" id="exampleInputEmail1"
+				type="number" name="cpC" class="form-control" id="exampleInputEmail1"
 				aria-describedby="emailHelp">
 		</div>
 		<div class="mb-3">
 			<label for="exampleInputEmail1" class="form-label">Telephone</label>
-			<input type="text" name="telephone" class="form-control"
+			<input type="text" name="telephoneC" class="form-control"
 				id="exampleInputEmail1" aria-describedby="emailHelp">
 		</div>
 		<div class="mb-3">
@@ -57,19 +58,9 @@
 				class="form-control" id="exampleInputEmail1"
 				aria-describedby="emailHelp">
 		</div>
+		
 		<div class="form-text">(*) : champs obligatoires</div><br><br>
-		<input type="radio" class="btn-check" name="formule" value="classique" id="option1"
-			autocomplete="off" checked> <label class="btn btn-secondary"
-			for="option1">Classique</label>
-			
-	    <input type="radio" class="btn-check"
-			name="formule" value="abonnee" id="option2" autocomplete="off"> <label
-			class="btn btn-secondary" for="option2">Abonnée</label>
-	    <input type="radio" class="btn-check"
-			name="formule" value="vip" id="option3" autocomplete="off"> <label
-			class="btn btn-secondary" for="option3">Vip</label><br><br>
-			
-
+		
 		<button type="submit" class="btn btn-primary">Submit</button>
 		<button type="reset" class="btn btn-danger">Annuler</button>
 	</form>
